@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apnakabadixyz - Sell Scrap Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h2 { color: #2e7d32; font-size: 20px; }
+        label { display: block; margin-top: 10px; font-weight: bold; }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        button:hover { background-color: #1b5e20; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Apnakabadixyz</h1>
+        <p>Ghar Baithe Scrap Bechein, Best Price Payein</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Book a Scrap Pickup</h2>
+            <form onsubmit="alert('Pickup Request Submitted Successfully!'); return false;">
+                <label>Your Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>Mobile Number</label>
+                <input type="tel" placeholder="Enter mobile number" required>
+
+                <label>Select Scrap Type</label>
+                <select>
+                    <option>Paper / Old Books</option>
+                    <option>Iron / Metal</option>
+                    <option>Plastic</option>
+                    <option>E-Waste / Electronics</option>
+                </select>
+
+                <label>Pickup Address</label>
+                <input type="text" placeholder="Enter full address" required>
+
+                <button type="submit">Request Pickup</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
